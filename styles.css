@@ -8,11 +8,11 @@ body{
     background-size: cover;
     color: white;
     border-top: 10px solid rgb(83, 198, 94);
-
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 350px;
+    height: 400px;
+    
 }
 
 .banner > div{
@@ -63,11 +63,11 @@ body{
         height: 38vw;
         padding: 0 100px;
     }
-
+    
     .banner > img{
         display: block;
     }
-
+    
 }
 
 @media(min-width: 1024px){
@@ -75,9 +75,140 @@ body{
         height: 38vw;
         padding: 0 200px;
     }
-
+    
     .banner > img{
+        width: 378px;
+        display: block;
+    }
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+.menu > div{
+    margin: 0 50px 0 50px;
+    padding-top: 50px;
+}
+.icone{
+    background-color: rgb(83, 198, 94);
+    margin-right: 10px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.texto{
+    text-align: center;
+    text-decoration-color:dimgrey;
+}
+
+@media(min-width: 768px){
+    .menu{
+        height: 20vw;
+        padding: 50px 0;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .menu > .icone{
+        display: block;
+    }
+    
+}
+@media(min-width: 1024px){
+    .menu{
+        height: 20vw;
+        padding: 0 200px;
+    }
+    
+    .menu > .icones{
         width: 350px;
         display: block;
     }
+}
+
+.secao3{
+    background-color: dimgrey;
+    display: flex;
+    margin: 0%;
+    padding: 50px;
+    flex-direction: initial;
+    padding-left: 20px;
+    text-align: left;
+    
+}
+iframe{
+    border-radius: 80px;
+    
+}
+input{
+    border-radius: 15px;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: 0;
+}
+.pessoas{
+    text-align: center;
+    display: block;
+}
+.caixa{
+    display: flex;
+    
+}
+button{
+    border-radius: 0px 15px 15px 0px;
+    border: 0;
+    width: 95px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(83, 198, 94);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: -70px;
+    color: white;
+    
+}
+@media(min-width: 768px){
+    .secao3{
+    
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .secao3 > .iframe{
+        display: block;
+    }
+    
+}
+@media(min-width: 1024px){
+    .secao3{
+      text-align: left;
+      align-items: center;
+    }
+    
+    .secao3 > .iframe{
+        display: block;
+    }
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
+footer > button{
+    display: inline-block;
+
 }
